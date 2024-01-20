@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icons/pata.ico">
+    <title>Mundo CAT</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        body{
+            background-color: #f5f5f5;
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 64px;
+            color: #120f16;
+        }
+        img{
+            max-width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+        }
+        .overlay-imagem-link{
+            padding: 16px;
+            background-color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            opacity: 0;
+            transition: all ease .5s;
+        }
+        .overlay-imagem:hover .overlay-imagem-link{
+            opacity: 1;
+        }
+        .overlay-imagem-link a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .overlay-imagem-link a:hover{
+            text-decoration: underline;
+            color: rgb(37, 14, 187);
+        }
+        .overlay-imagem{
+            position: relative;
+        }
+        .post{
+            margin-bottom: 24px;
+        }
+        header.card-header.h3{
+            color: rgb(212, 192, 79);
+            text-align: center;
+        }
+        footer.card-footer{
+            color: rgb(212, 192, 79);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    Confira as novidades <a href="#">clicando aqui</a>
+                </div>
+            </div>
+        </div>
+        <h1>Mundo CAT</h1>
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <h2>Principal</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card post text-bg-dark">
+                            <header class="card-header h3">
+                                Cat frajola
+                            </header>
+                            <div class="overlay-imagem">
+                                <img src="./images/gato frajola.jpeg" alt="Gato frajola">
+                                <div class="overlay-imagem-link">
+                                    <a href="./images/gato frajola.jpeg" target="_blank" title="Abrir imagem">Abrir imagem</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">O gato frajola é</h4>
+                                <p class="card-text">
+                                    um companheiro fiel e inteligente e é carinhoso com o tutor. Mas costuma estranhar pessoas desconhecidas. Uma...
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em 16/jan/2024 às 12:19
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card post text-bg-dark">
+                            <header class="card-header h3">
+                                Cat cinza
+                            </header>
+                            <div class="overlay-imagem">
+                                <img src="./images/gato cinza.jpg" alt="Gato cinza">
+                                <div class="overlay-imagem-link">
+                                    <a href="./images/gato cinza.jpg" target="_blank" title="Abrir imagem">Abrir imagem</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Ao gato cinza foi</h4>
+                                <p class="card-text">
+                                    atribuída uma personalidade dócil e extrovertida. O gato cinza tem um comportamento mais agitado, podendo...
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em 16/jan/2024 às 12:25
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card post text-bg-dark">
+                            <header class="card-header h3">
+                                Cat branco
+                            </header>
+                            <div class="overlay-imagem">
+                                <img src="./images/gato branco.jpeg" alt="Gato branco">
+                                <div class="overlay-imagem-link">
+                                    <a href="./images/gato branco.jpeg" target="_blank" title="Abrir imagem">Abrir imagem</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Os gatos brancos</h4>
+                                <p class="card-text">
+                                    são calmos e levam a vida com leveza, sem muito alarde. Então se ele apareceu em um sonho bom, isso significa que...
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em 16/jan/2024 às 12:48
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card post text-bg-dark">
+                            <header class="card-header h3">
+                                Cat laranja
+                            </header>
+                            <div class="overlay-imagem">
+                                <img src="./images/gato laranja.jpeg" alt="Gato laranja">
+                                <div class="overlay-imagem-link">
+                                    <a href="./images/gato laranja.jpeg" target="_blank" title="Abrir imagem">Abrir imagem</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4>A personalidade</h4>
+                                <p class="card-text">
+                                    dos gatos laranjas é geralmente bastante distinta. Eles são conhecidos por serem extrovertidos, brincalhões...
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em 16/jan/2024 às 12:58
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card post text-bg-dark">
+                            <header class="card-header h3">
+                                Cat toyger
+                            </header>
+                            <div class="overlay-imagem">
+                                <img src="./images/gato toyger.jpeg" alt="Gato toyger">
+                                <div class="overlay-imagem-link">
+                                    <a href="./images/gato toyger.jpeg" target="_blank" title="Abrir imagem">Abrir imagem</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4>Diferente de muitos</h4>
+                                <p class="card-text">
+                                    gatos, o tigre doméstico, é um pet super tranquilo e sociável, podem passear com ele na rua, parque, ou...
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em 16/jan/2024 às 13:07
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card post text-bg-dark">
+                            <header class="card-header h3">
+                                Tigre
+                            </header>
+                            <div class="overlay-imagem">
+                                <img src="./images/tigre.jpeg" alt="Tigre">
+                                <div class="overlay-imagem-link">
+                                    <a href="./images/tigre.jpeg" target="_blank" title="Abrir imagem">Abrir imagem</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">O tigre é o maior</h4>
+                                <p class="cart-text">
+                                    felino do mundo e apresenta pescoço curto e grosso, ombros largos, grandes membros e longas garras. Esse...
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em 16/jan/2024 às 13:16
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-end">
+                <div>
+                    <h2>Veja mais</h2>
+                    <div id="cat_carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="./images/carousel.jpeg" alt="gato carousel">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/carousel_1.jpeg" alt="gato carousel">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/carousel_2.jpeg" alt="gato carousel">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/carousel_3.jpeg" alt="gato carousel">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/carousel_4.jpeg" alt="gato carousel">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/carousel_5.jpeg" alt="gato carousel">
+                            </div>
+                        </div>
+                        <button type="button" class="carousel-control-prev" data-bs-target="#cat_carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button type="button" class="carousel-control-next" data-bs-target="#cat_carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" class="active" data-bs-target="#cat_carousel" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#cat_carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#cat_carousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#cat_carousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#cat_carousel" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#cat_carousel" data-bs-slide-to="5"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
